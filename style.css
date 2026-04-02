@@ -13,6 +13,8 @@ header{
     padding: 20px;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
 }
 #Logo {
     font-size: 28px;
@@ -28,21 +30,23 @@ header{
     color: #333;
     text-decoration: none;
 }
-.hero {
+#hero {
     text-align: center;
     padding: 100px 20px;
     background-color: #f4f4f4;
     color: #333;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
 }
-.hero h1 {
+#hero h1 {
     font-size: 48px;
     margin-bottom: 20px;
 }
-.hero p {
+#hero p {
     font-size: 24px;
     margin-bottom: 40px;
 }
-.btn {
+#btn {
     display: inline-block;
     padding: 15px 30px;
     background-color: #000;
@@ -50,4 +54,95 @@ header{
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
+}
+#discounted-items,
+#new-arrivals,
+#info-block {
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    margin: 20px 0;
+}
+#discounted-items h2,
+#new-arrivals h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.items-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 280px;
+    min-width: 280px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.item h3 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+}
+.item p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+.old-price {
+    text-decoration: line-through;
+    margin-right: 8px;
+    color: #888;
+}
+#info-block .info-card {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: left;
+}
+#info-block .info-card h3 {
+    margin-bottom: 8px;
+}
+#info-block .info-card p {
+    margin: 4px 0;
+}
+footer {
+    background-color: #f4f4f4;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+footer p {
+    margin: 4px 0;
+}
+@media (max-width: 980px) {
+    .item {
+        width: calc(50% - 15px);
+    }
+}
+@media (max-width: 650px) {
+    .item {
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-links {
+        margin-top: 10px;
+        margin-right: 0;
+    }
 }
