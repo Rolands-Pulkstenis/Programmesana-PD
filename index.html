@@ -3,72 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <p id="Logo">Logo</p>
-        <a id="Home_page" href="#">Home</a>
-        <a id="Store_page" href="#">Shop</a>
+        <nav class="nav-links">
+            <a id="Home_page" href="#">Home</a>
+            <a id="Store_page" href="#">Shop</a>
+        </nav>
     </header>
-    <div id="Hero">
-        <h1>HERO SECTION </h1>
-        <h1>HEADING</h1>
-        <h3>Descriptive text goes here.</h3>
-        <button>SHOP NOW</button>
-    </div>
-    <main>
-        <section id="discounted">
-            <h2 id="heading">DISCOUNTED PRODUCTS</h2>
-            <div class="image"></div>
-            <div class="image"></div>
-            <div class="image"></div>
-            <div class="image"></div>
-            <h3>Product name</h3>
-            <h3>Product name</h3>
-            <h3>Product name</h3>
-            <h3>Product name</h3>
-            <h3 class="old_price">€XX</h3>
-            <h3 class="old_price">€XX</h3>
-            <h3 class="old_price">€XX</h3>
-            <h3 class="old_price">€XX</h3>
-            <h2 class="new_price">€XX</h2>
-            <h2 class="new_price">€XX</h2>
-            <h2 class="new_price">€XX</h2>
-            <h2 class="new_price">€XX</h2>  
-        </secetion>
-        <section>
-            <h2>NEW ARRIVALS</h2>
-            <div class="image"></div>
-            <div class="image"></div>
-            <div class="image"></div>
-            <div class="image"></div>
-            <h3>Product name</h3>
-            <h3>Product name</h3>
-            <h3>Product name</h3>
-            <h3>Product name</h3>
-            <h3 class="old_price">€XX</h3>
-            <h3 class="old_price">€XX</h3>
-            <h3 class="old_price">€XX</h3>
-            <h3 class="old_price">€XX</h3>
-            <h2 class="new_price">€XX</h2>
-            <h2 class="new_price">€XX</h2>
-            <h2 class="new_price">€XX</h2>
-            <h2 class="new_price">€XX</h2>  
-        </secetion>
-    </main>
+    <section id="hero">
+        <h1>Welcome to Programmesana-PD</h1>
+        <p>Discover amazing products and services tailored for you.</p>
+        <a href="#" id="btn">Explore Now</a>
+    </section>
+    <section id="discounted-items">
+        <h2>Discounted Products</h2>
+        <div class="items-container">
+            <div class="item">
+                <img src="https://via.placeholder.com/260x180" alt="Discounted Item 1">
+                <h3>Product Name</h3>
+                <p><span class="old-price">€50</span> <strong>€30</strong></p>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/260x180" alt="Discounted Item 2">
+                <h3>Product Name</h3>
+                <p><span class="old-price">€45</span> <strong>€30</strong></p>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/260x180" alt="Discounted Item 3">
+                <h3>Product Name</h3>
+                <p><span class="old-price">€40</span> <strong>€XX</strong></p>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/260x180" alt="Discounted Item 4">
+                <h3>Product Name</h3>
+                <p><span class="old-price">€47</span> <strong>€XX</strong></p>
+            </div>
+        </div>
+    </section>
+    <section id="new-arrivals">
+        <h2>New Arrivals</h2>
+        <div class="items-container">
+            <div class="item">
+                <img src="https://via.placeholder.com/260x180" alt="New Arrival 1">
+                <h3>Product Name</h3>
+                <p><strong>€XX</strong></p>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/260x180" alt="New Arrival 2">
+                <h3>Product Name</h3>
+                <p><strong>€XX</strong></p>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/260x180" alt="New Arrival 3">
+                <h3>Product Name</h3>
+                <p><strong>€XX</strong></p>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/260x180" alt="New Arrival 4">
+                <h3>Product Name</h3>
+                <p><strong>€XX</strong></p>
+            </div>
+        </div>
+    </section>
+    <section id="info-block">
+        <div class="info-card">
+            <h3>12arr-589 address</h3>
+            <p>+123-456-7890</p>
+            <p>email@example.com</p>
+        </div>
+    </section>
     <footer>
-        <section id="contacts">
-            <h3>STREET</h3>
-            <h3>TELEPHONE</h3>
-            <h3>EMAIL</h3>
-        </section>
-        <section id="copyrights">
-            <h3>STREET</h3>
-            <h3>TELEPHONE</h3>
-            <h3>copyright</h3>
-        </section>
+        <p>123 Street Name, City, Country</p>
+        <p>+123-456-7890</p>
+        <p>© Online Clothing Store</p>
     </footer>
 </body>
 </html>
