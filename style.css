@@ -40,12 +40,14 @@ header{
     padding: 8px 12px;
     border-radius: 6px;
     font-weight: 600;
+    transition: 250ms ease;
 }
 
 #nav-links a:hover {
     color: #ffffff;
     font-weight: 700;
     background-color: #bb7e8c;
+    transition: 250ms ease;
 }
 #hero {
     text-align: center;
@@ -75,9 +77,11 @@ header{
     border-radius: 5px;
     font-size: 18px;
     font-weight: 700;
+    transition: 250ms ease;
 }
 #btn:hover {
     background-color: #553a41;
+    transition: 250ms ease;
 }
 #discounted-items,
 #new-arrivals,
