@@ -3,7 +3,7 @@
 }
 body{
     margin: 0;
-    background-color: #e6e8e6; /* neutral */
+    background-color: #e6e8e6; 
     color: #191919;
     font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     padding-top: 50px;
@@ -259,7 +259,6 @@ header{
     width: 100%;
     height: 200px;
     background-color: #e6e8e6;
-    border: 1px dashed #bb7e8c;
     margin-bottom: 12px;
     border-radius: 4px;
     overflow: hidden;
