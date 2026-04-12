@@ -196,6 +196,12 @@ header{
     border-radius: 4px;
     font-size: 18px;
     box-sizing: border-box;
+    transition: 0.25s ease;
+    outline: none;
+}
+#search:focus {
+    transition: 0.25s ease;
+    border: 2px solid #bb7e8c;
 }
 #search-icon-btn {
     position: absolute;
