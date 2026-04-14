@@ -48,6 +48,7 @@ header{
     font-weight: 700;
     background-color: #bb7e8c;
     transition: 250ms ease;
+    scale: 1.1;
 }
 #hero {
     text-align: center;
@@ -81,6 +82,7 @@ header{
 #btn:hover {
     background-color: #553a41;
     transition: 250ms ease;
+    scale: 1.1;
 }
 #discounted-items,
 #new-arrivals,
@@ -105,8 +107,6 @@ header{
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
     padding-bottom: 10px;
 }
 .item {
@@ -145,7 +145,9 @@ header{
     justify-content: space-between;
     gap: 24px;
 }
-
+.item:hover{
+    scale: 1.1;
+}
 #info-card,
 #info-highlights {
     flex: 1;
@@ -199,7 +201,7 @@ header{
 }
 #search:focus {
     transition: 0.25s ease;
-    border: 2px solid #bb7e8c;
+    border: 2px solid #bb7e8c;  
 }
 #search-icon-btn {
     position: absolute;
@@ -246,13 +248,16 @@ header{
     border-radius: 4px;
     cursor: pointer;
 }
+#filter-btn:hover{
+    border: 2px solid #3a6ea5;
+    scale: 1.1;
+}
 
 #products {
     display: grid;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
     gap: 22px;
 }
-
 .product-card {
     border: 2px solid #ccc;
     padding: 14px;
@@ -260,7 +265,9 @@ header{
     text-align: center;
     box-shadow: 0 2px 5px rgb(0, 0, 0);
 }
-
+.product-card:hover{
+    scale:1.05;
+}
 .product-img {
     width: 100%;
     height: 200px;
