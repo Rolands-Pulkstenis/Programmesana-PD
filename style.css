@@ -104,12 +104,11 @@ header{
 #discounted-container,
 #new-arrivals-container {
     display: flex;
-    justify-content: flex-start;
-    gap: 20px;
+    justify-content: space-evenly;
+    gap: 10px;
     flex-wrap: nowrap;
     overflow-x: auto;
     padding-bottom: 10px;
-    justify-content: center;
 }
 .item {
     background-color: #f9f9f9;
