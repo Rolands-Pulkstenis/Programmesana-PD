@@ -7,8 +7,8 @@ body{
     color: #191919;
     font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-bottom: 0;
     overflow-x: hidden;
 }
@@ -37,10 +37,11 @@ header{
     color: #3a6ea5;
     text-decoration: none;
     transition: all 0.2s ease;
-    padding: 8px 12px;
-    border-radius: 6px;
+    padding: 8px 16px;
+    border-radius: 75px;
     font-weight: 600;
     transition: 250ms ease;
+    border:2px solid white
 }
 
 #nav-links a:hover {
@@ -49,6 +50,7 @@ header{
     background-color: #bb7e8c;
     transition: 250ms ease;
     scale: 1.1;
+    border:2px solid #553a41;
 }
 #hero {
     text-align: center;
@@ -131,8 +133,7 @@ header{
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 8px;
-    width: 280px;
-    min-width: 280px;
+    width: 250px;
     box-shadow: 0 2px 5px rgb(0, 0, 0);
     transition: 0.25s ease;
 }
